@@ -1,5 +1,9 @@
-fun main(args: Array<String>) {
+fun main() {
     println("What's your name?")
     val name = readln()
-    println("Hello, $name!")
+
+    val utility = Utility()
+
+    val d = utility.doCalculation(10)
+    println("Hello, $name!, $d")
 }
